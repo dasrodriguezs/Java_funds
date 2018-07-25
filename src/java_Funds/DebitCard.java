@@ -7,9 +7,7 @@ public class DebitCard extends PaymentMethod{
 	private Date expDate;
 	private Issuer issuer;
 	
-	public DebitCard() {
-	}
-	
+		
 	public void authorize() {
 		
 	}

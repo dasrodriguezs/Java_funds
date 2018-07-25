@@ -4,6 +4,7 @@ public class LineItem {
 	private int quantity;
 	private double price;
 	private Product product;
+	
 	public LineItem(int quantity, double price, java_Funds.Product product) {
 		this.quantity = quantity;
 		this.price = price;
