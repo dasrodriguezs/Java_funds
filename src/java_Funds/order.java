@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class order {
+public class Order {
 	private int id;
 	private Date modified;
 	private OrderStatus status;
@@ -12,7 +12,7 @@ public class order {
 	private double total;
 	private List<LineItem> items = new ArrayList<>();
 	
-	public order() {
+	public Order() {
 	}
 	
 	public void addItem(LineItem item) {
@@ -71,7 +71,7 @@ public class order {
 		this.total = total;
 	}
 
-	public order(int id, Date modified, OrderStatus status, String shippingAddress, double total,
+	public Order(int id, Date modified, OrderStatus status, String shippingAddress, double total,
 			List<LineItem> items) {
 		super();
 		this.id = id;
